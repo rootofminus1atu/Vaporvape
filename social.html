@@ -4,9 +4,200 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta name="description" content="Vaporvape is a vape shop website. On the social page you can see what other users think about us. You can also leave a review for others to see">
+    <meta name="keywords" content="vaping, vape, smoking, smoke, vaporwave, vaporvape, lung cancer, social, reviews, form, write, score, rate">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/social-style.css">
+    <link rel="stylesheet" href="css/product-style.css">
+    <link rel="stylesheet" href="css/opinion-style.css">
+
+    <style>
+        .add-review {
+            align-items: start;
+        }
+
+        .rules {
+            font-size: large;
+            text-shadow: 2px 2px 0 black;
+            font-weight: 100;
+        }
+
+        .rules h3 {
+            padding-left: 1rem;
+            text-align: start;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Nothing here yet</h1>
+    <header>
+        <div class="max-width header-content">
+            <div class="header-group">
+                <div class="image-container">                    
+                    <img src="images/logo-better-white.png" alt="shadow" class="shadow">
+                    <img src="images/logo-better-white.png" alt="our logo">
+                    <img src="images/logo-better-white.png" alt="shadow" class="shadow">
+                </div>
+                <h2><a href="index.html">Home</a></h2>
+            </div>
+            <nav class="header-group">
+                <a href="new.html">New</a>
+                <a href="about.html">About</a>
+                <a href="social.html">Social</a>
+            </nav>
+            <div class="header-group">
+                <h2><a href="login.html">Login</a></h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    
+    <main id="bg">
+        <div class="max-width">
+            <section class="main-content">
+                <h2>SHARE YOUR OPINION!</h2>
+            </section>
+
+            <section class="main-content">
+                <h2>TOP REVIEWS:</h2>
+                <div class="opinions">
+                    <div class="opinion">
+                        <div class="profile">
+                            <img src="images/unknown-profile-pic.png" alt="profile picture">
+                            <p>Sleepy Joe</p>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, repellendus.</p>
+                    </div>
+
+                    <div class="opinion">
+                        <div class="profile">
+                            <img src="images/unknown-profile-pic.png" alt="profile picture">
+                            <p>danmanvapes</p>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, repellendus.</p>
+                    </div>
+
+                    <div class="opinion">
+                        <div class="profile">
+                            <img src="images/unknown-profile-pic.png" alt="profile picture">
+                            <p>sammywammy</p>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, repellendus.</p>
+                    </div>
+
+                    <div class="opinion">
+                        <div class="profile">
+                            <img src="images/unknown-profile-pic.png" alt="profile picture">
+                            <p>ILoveHistory420</p>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, repellendus.</p>
+                    </div>
+
+                    <div class="opinion">
+                        <div class="profile">
+                            <img src="images/unknown-profile-pic.png" alt="profile picture">
+                            <p>Mr sheep</p>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, repellendus.</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="profile">
+                            <img src="images/unknown-profile-pic.png" alt="profile picture">
+                            <p>xXdublingangstaXx</p>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, repellendus.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main-content">
+                <h2>ADD YOUR REVIEW</h2>
+                <div class="opinion add-review" style="width: 80%;">
+                    <div class="profile">
+                        <img src="images/unknown-profile-pic.png" alt="profile picture">
+                        <p>Username</p>
+                    </div>
+
+                    <form action="http://foo.com" method="get">
+                        <textarea name="review" id="review" placeholder="Write your review here..."></textarea>
+                            
+                        <div class="rating-submit-row">
+                            <div class="ratings">
+                                <input type="radio" id="rating-1" name="rating" value="1">
+                                <label for="rating-1">1</label>
+                                <input type="radio" id="rating-2" name="rating" value="2">
+                                <label for="rating-2">2</label>
+                                <input type="radio" id="rating-3" name="rating" value="3">
+                                <label for="rating-3">3</label>
+                                <input type="radio" id="rating-4" name="rating" value="4">
+                                <label for="rating-4">4</label>
+                                <input type="radio" id="rating-5" name="rating" value="5">
+                                <label for="rating-5">5</label>
+                            </div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+
+                    <div class="rules">
+                        <h3>Rules:</h3>
+                        <ol>
+                            <li>No spamming</li>
+                            <li>No swearing</li>
+                            <li>Be nice</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- MAIN CONTENT END -->
+
+    <footer>
+        <div class="max-width footer-content">
+            <div class="footer-row">
+                <div class="footer-group">
+                    <h2 class="brand-name">Vaporvape</h2>
+                    <p>Vaporvape is a vape shop with a wide range of available products</p>
+                </div>
+
+                <div class="footer-group">
+                    <h3 style="text-align:end">Menu</h3>
+                    <ul>
+                        <li><a href="new.html">New</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="social.html">Social</a></li>
+                    </ul>
+                    <p><a href="#">Back to top</a></p>
+                </div>
+            </div>
+
+            <div class="footer-row">
+                <div class="footer-group">
+                    <p><i>Copyright &copy; 2023 Vaporvape Inc. All rights reserved.</i></p>
+                </div>
+                
+                <div class="footer-group">
+                    <ul class="icons">
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://discord.com/"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://ie.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>

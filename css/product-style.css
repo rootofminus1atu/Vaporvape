@@ -45,18 +45,8 @@
     text-shadow: 0 0 10px black, 0 0 5px black, 0 0 15px black ;
 }
 
-.product aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.product aside p {
-    padding: auto;
-    padding-left: 2.2rem;
-    margin-top: auto;
+.product p {
+    padding-left: 1rem;
 }
 
 /* I should clean up this and opinion-style.css */

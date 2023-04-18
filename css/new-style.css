@@ -1,5 +1,5 @@
-main {
-    background-image: url("../images/vaporwave-blue-pink.jpg");
+#bg {
+    background-image: url("../images/vaporwave-pink.jpg");
     background-size: cover;
     background-position: center;
 }

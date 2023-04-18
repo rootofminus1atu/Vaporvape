@@ -1,4 +1,4 @@
-main {
+#bg {
     background-image: url("../images/vaporwave-sunset.jpg");
     background-size: cover;
     background-position: center;
@@ -77,7 +77,6 @@ img.shadow {
 .image-collection img {
     content: "";
     position: absolute;
-    height: 30rem;
     transition: all 0.3s ease-in-out;
 }
 
@@ -88,23 +87,31 @@ img.shadow {
 }
 
 .image-collection img:nth-child(1) {
-    transform: translate(-20rem, 0) rotateZ(-30deg);
+    top: 10%;
+    left: 5%;
+    transform: rotateZ(-30deg);
 }
 
 .image-collection img:nth-child(2) {
-    transform: translate(-10rem, 0) rotateZ(-20deg);
+    top: 5%;
+    left: 25%;
+    transform: rotateZ(-20deg);
 }
 
 .image-collection img:nth-child(3) {
-    transform: translate(0, 0);
+    transform: rotateZ(0deg);
 }
 
 .image-collection img:nth-child(4) {
-    transform: translate(10rem, 0) rotateZ(10deg);
+    top: 5%;
+    right: 28%;
+    transform: rotateZ(10deg);
 }
 
 .image-collection img:nth-child(5) {
-    transform: translate(20rem, 0) rotateZ(30deg);
+    top: 10%;
+    right: 5%;
+    transform: rotateZ(30deg);
 }
 
 

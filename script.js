@@ -27,7 +27,7 @@ styleElement.innerHTML = css
 
 // better fixed header effect
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', () => {
     var header = document.querySelector('header')
     var scrolled = window.scrollY > 60
 
