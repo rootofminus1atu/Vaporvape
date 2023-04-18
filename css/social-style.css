@@ -51,15 +51,15 @@ section {
     resize: none;
     border: none;
     border-radius: 1rem;
-    background-color: rgba(41, 38, 44, 0.8);
+    background-color: rgba(9, 8, 10, 0.9);
     color: white;
     scrollbar-width: thin;
 }
 
 
 .ratings label {
-    margin-right: 1rem;
-    font-size: 1.7rem;
+    margin-right: 0.8rem;
+    font-size: 1.5rem;
 }
 
 .ratings input[type="radio"] {
@@ -69,18 +69,18 @@ section {
 .ratings label:before {
     content: "\2605";
     font-size: 2rem;
-    color: #ccc;
+    color: rgb(196, 196, 196);
 }
 
 .ratings input[type="radio"]:checked + label:before {
-    color: #fbff29;
+    color: rgb(235, 255, 50);
 }
 
 .opinion input[type="submit"] {
     border: none;
     background-color: transparent;
     padding: 0.8rem 1.2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;

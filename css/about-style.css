@@ -22,6 +22,18 @@ section {
 }
 
 
+#the-one-and-only-float {
+    width: 6rem; 
+    float: left;
+    shape-outside: url(../images/logo-better-white.png); 
+    shape-margin: 0.4rem; 
+    margin-left: 1.2rem; 
+    margin-right: 0.8rem;
+}
+
+
+
+
 .opinion {
     gap: 1rem;
     width: 80%;
@@ -46,7 +58,7 @@ section {
 .opinion iframe {
     width: 100%;
     height: 30rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 

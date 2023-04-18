@@ -1,0 +1,85 @@
+#bg {
+    background-image: url("../images/vaporwave-sunset.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content h2 {
+    font-size: 3rem;
+    text-shadow: 4px 4px 0 black, 0 0 10px black, 0 0 20px black;
+    margin-top: 9rem;
+}
+
+
+
+header {
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+.login-box {
+    background-image: linear-gradient(rgba(17, 19, 26, 0.8), rgba(16, 17, 20, 0.8));
+    backdrop-filter: blur(7px);
+    padding: 20px 0;
+    border: 4px solid rgb(208, 18, 255);
+    box-shadow: 4px 4px 0 black, 2px 2px 10px black, 2px 2px 20px black;
+
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 30rem;
+
+    text-align: center;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.login-box input[type="password"],
+.login-box input[type="text"] {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 20rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgba(11, 9, 12, 0.8);
+    color: white;
+    scrollbar-width: thin;
+}
+  
+.required {
+    margin-right: 5px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 10px rgb(202, 39, 39), 0 0 15px rgb(216, 55, 55);
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    border: 2px solid rgba(201, 22, 255, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.login-box input[type="submit"]:hover {
+    text-shadow: -2px -2px 4px rgb(142, 4, 255), 2px 2px 4px rgb(113, 4, 255);
+    border: 2px solid rgba(201, 22, 255, 1);
+
+}
