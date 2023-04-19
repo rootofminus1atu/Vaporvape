@@ -1,5 +1,5 @@
 # Vaporvape
-This is my Year 1 Semester 2 Web development project. It's about a fictional vape shop. The design was inspired by the vaporwave/synthwave/retrowave aesthetic.
+This is my Year 1 Semester 2 Web development project at ATU. It's about a fictional vape shop. The design was inspired by the vaporwave/synthwave/retrowave aesthetic.
 
 To check it out just click on this link: https://s00240122.github.io/Vaporvape/
 
