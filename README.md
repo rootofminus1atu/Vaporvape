@@ -8,7 +8,7 @@ I do not vape.
 
 # Thoughts
 
-I'm mostly happy with how the website looks like, but it could look better. What I'm not happy about is how the CSS is managed. It's kind of a mess and it's definitely not the way to go for such visually-demanding projects in the future. Next time I'm planning to use *tailwindcss* and some global CSS, or CSS modules (especially when working with frameworks in the future).
+I'm mostly happy with how the website looks like, but it could look better. What I could do better is managing the styling. It's kind of a mess currently and it's definitely not the way to go for such visually-demanding projects in the future. Next time I'm planning to use *tailwindcss* and some global CSS, or CSS modules (especially when working with frameworks in the future).
 
 
 
